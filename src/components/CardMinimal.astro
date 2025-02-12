@@ -1,0 +1,24 @@
+---
+const { cardCode } = Astro.props;
+---
+
+<img class="card" src=`https://d17d04qkxoe2lw.cloudfront.net/${cardCode}_CARD.png` />
+
+<style>
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+</style>

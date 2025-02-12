@@ -1,0 +1,56 @@
+---
+import Navigation from '../components/Navigation.astro'
+import Footer from '../components/Footer.astro'
+import CardMinimal from '../components/CardMinimal.astro';
+import '../styles/global.css'
+
+const pageTitle = "Related Sites";
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{pageTitle}</title>
+    <style>
+        
+        h1 {
+          color: purple;
+          font-size: 4rem;
+        }
+
+    </style>
+	</head>
+	<body>
+		<Navigation />
+    <h1>{pageTitle}</h1>
+	<ul>
+    <li>
+      <a
+        href="#"
+      >
+        <CardMinimal 
+          cardCode="TMPLT-708d" 
+        />
+      </a>
+    </li>
+    <li>
+      <a
+        href="#"
+      >
+        <CardMinimal 
+          cardCode="JSY-ZHONE-d79f" 
+        />
+      </a>
+    </li>
+	</ul>
+	
+	<Footer />
+	<br />
+	<br />
+	<br />
+  </body>
+</html>
