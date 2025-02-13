@@ -5,6 +5,12 @@ import SlipListItem from '../components/SlipListItem.astro'
 import '../styles/global.css'
 
 const pageTitle = "Salvage Slips"
+
+import {
+	getSiteNames,
+} from '../components/salvageSlips'
+
+const siteNames = getSiteNames();
 ---
 
 <html lang="en">
@@ -19,7 +25,12 @@ const pageTitle = "Salvage Slips"
 		<Navigation />
 		<h1>{pageTitle}</h1>
 
-    <SlipListItem siteName="sylvan-circle" />
+    {siteNames.map(
+			(siteName) => 
+			<SlipListItem siteName={siteName} />
+			)
+		}
+    
 
 		<br />
 		<br />
