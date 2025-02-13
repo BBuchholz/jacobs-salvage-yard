@@ -1,0 +1,20 @@
+---
+const { siteName } = Astro.props;
+import { 
+  getSlipsForSiteName,
+} from './salvageSlips'
+
+const slips = getSlipsForSiteName(siteName);
+---
+
+<li>
+  <a
+    href=`https://${siteName}.netlify.app`
+    target="_blank"
+  >
+    {siteName}
+  </a>
+  <ul>
+    {slips.map((slip) => <li>{slip}</li>)}
+  </ul>
+</li>
