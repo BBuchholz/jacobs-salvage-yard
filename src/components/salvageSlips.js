@@ -7,53 +7,11 @@ const slips = [
     ]
   },
   {
-    siteName: "aethyrium",
-    siteSlips: [
-      "to be deleted",
-      ""
-    ]
-  },
-  {
-    siteName: "fearless-coin-blog",
-    siteSlips: [
-      "to be deleted",
-      "will stay in github, add to SCOPES"
-    ]
-  },
-  {
     siteName: "timely-valkyrie-da6198",
     siteSlips: [
       "original ATA",
       "save image and turn into card for ATA",
       'delete when done'
-    ]
-  },
-  {
-    siteName: "abnormal-wings",
-    siteSlips: [
-      "second ATA incarnation",
-      "delete when image is card"
-    ]
-  },
-  {
-    siteName: "brave-sand-box",
-    siteSlips: [
-      "to be reviewed",
-      ""
-    ]
-  },
-  {
-    siteName: "pndmn",
-    siteSlips: [
-      "to be reviewed",
-      ""
-    ]
-  },
-  {
-    siteName: "sylvan-circle",
-    siteSlips: [
-      "turn image into card",
-      "delete site aftwards"
     ]
   },
   {
@@ -75,13 +33,6 @@ const slips = [
     siteSlips: [
       "remix image into card",
       'delete'
-    ]
-  },
-  {
-    siteName: "shepton-transmission-services",
-    siteSlips: [
-      "to be reviewed",
-      ""
     ]
   },
 ]
