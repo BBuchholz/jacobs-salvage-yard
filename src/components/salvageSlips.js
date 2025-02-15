@@ -7,43 +7,115 @@ const slips = [
     ]
   },
   {
-    siteName: "pinia-tutorial",
-    siteSlips: [
-      "review",
-    ]
-  },
-  {
-    siteName: "obaolg",
-    siteSlips: [
-      "review",
-    ]
-  },
-  {
-    siteName: "myriad-central",
-    siteSlips: [
-      "review",
-    ]
-  },
-  {
-    siteName: "a-myriad-ov-services",
-    siteSlips: [
-      "review",
-    ]
-  },
-  {
-    siteName: "magik-dor",
-    siteSlips: [
-      "review",
-    ]
-  },
-  {
     siteName: "anxious-grove",
     siteSlips: [
+      "lots to review here, save for now",
+    ]
+  },
+  {
+    siteName: "antiquarian-cup",
+    siteSlips: [
       "review",
     ]
   },
   {
-    siteName: "madamadam",
+    siteName: "magik-wel",
+    siteSlips: [
+      "review",
+    ]
+  },
+  {
+    siteName: "honest-bog",
+    siteSlips: [
+      "review",
+    ]
+  },
+  {
+    siteName: "papaya-parfait-8fcafc",
+    siteSlips: [
+      "review",
+    ]
+  },
+  {
+    siteName: "gladly-antediluvian-cathedral",
+    siteSlips: [
+      "review",
+    ]
+  },
+  {
+    siteName: "worthy-mountain",
+    siteSlips: [
+      "review",
+    ]
+  },
+  {
+    siteName: "extremely-daemonic-gate",
+    siteSlips: [
+      "review",
+    ]
+  },
+  {
+    siteName: "truthfully-cyclopean-barracks",
+    siteSlips: [
+      "review",
+    ]
+  },
+  {
+    siteName: "fearlessly-artifactual",
+    siteSlips: [
+      "review",
+    ]
+  },
+  {
+    siteName: "furiously-visionary-altar",
+    siteSlips: [
+      "review",
+    ]
+  },
+  {
+    siteName: "nameless-star",
+    siteSlips: [
+      "review",
+    ]
+  },
+  {
+    siteName: "mask-dance",
+    siteSlips: [
+      "review",
+    ]
+  },
+  {
+    siteName: "personages",
+    siteSlips: [
+      "review",
+    ]
+  },
+  {
+    siteName: "welcome-to-coventree-cafe",
+    siteSlips: [
+      "review",
+    ]
+  },
+  {
+    siteName: "coventree-cafe",
+    siteSlips: [
+      "review",
+    ]
+  },
+  {
+    siteName: "coventree",
+    siteSlips: [
+      "review",
+    ]
+  },
+  {
+    siteName: "coventry-test",
+    siteSlips: [
+      "review",
+    ]
+  },
+  {
+    siteName: "coven",
     siteSlips: [
       "review",
     ]
