@@ -7,32 +7,45 @@ const slips = [
     ]
   },
   {
-    siteName: "timely-valkyrie-da6198",
+    siteName: "pinia-tutorial",
     siteSlips: [
-      "original ATA",
-      "save image and turn into card for ATA",
-      'delete when done'
+      "review",
     ]
   },
   {
-    siteName: "thasg",
+    siteName: "obaolg",
     siteSlips: [
-      "remix these cards",
-      "delete site when finished"
+      "review",
     ]
   },
   {
-    siteName: "tha-stratagem",
+    siteName: "myriad-central",
     siteSlips: [
-      "remix these cards",
-      "delete site when finished"
+      "review",
     ]
   },
   {
-    siteName: "sonic-circle",
+    siteName: "a-myriad-ov-services",
     siteSlips: [
-      "remix image into card",
-      'delete'
+      "review",
+    ]
+  },
+  {
+    siteName: "magik-dor",
+    siteSlips: [
+      "review",
+    ]
+  },
+  {
+    siteName: "anxious-grove",
+    siteSlips: [
+      "review",
+    ]
+  },
+  {
+    siteName: "madamadam",
+    siteSlips: [
+      "review",
     ]
   },
 ]
@@ -40,7 +53,6 @@ const slips = [
 export function getSiteNames(){
   return slips.map(site => site.siteName);
 }
-
 
 export function getSlipsForSiteName(siteName){
   return slips.find(site => site.siteName === siteName).siteSlips;
